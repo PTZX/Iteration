@@ -1,12 +1,14 @@
 ##Paul Njenje
 ##05/11/14
-##Iteration Class Dev Exercise 1
+##Iteration Class Development Exercise 1
 
-n = int(input("Enter a number to find its factorial: "))
-factorial = 1
-integer = 2
-while i >= n:
-    factorial = factorial
-    
+def main():
+    n = int(input("Enter a number to find its factorial: "))
+    factorial = 1
+    integer = 2
+    while integer >= factorial:
+        factorial = factorial * n
 
-n * factorial(n-l)
+
+    n = n * factorial
+    print(n)
